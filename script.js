@@ -1,55 +1,74 @@
-// Sahara Al Jazeera Mobile Website Script
-
-// Welcome Message
-window.onload = function() {
-    alert("Welcome to Sahara Al Jazeera Mobile LLC - Ajman");
-};
-
-
-// Simple Contact Form Message
-function sendMessage() {
-
-    let name = document.getElementById("name").value;
-    let message = document.getElementById("message").value;
-
-    if(name == "" || message == "") {
-        alert("Please fill all fields");
-    } else {
-        alert("Thank you " + name + "! Your request has been sent.");
-    }
+body{
+font-family:Arial;
+background-color:#0b1d45;
+color:white;
+text-align:center;
+margin:0;
 }
 
-
-// Simple Search Function
-function searchProduct() {
-
-    let input = document.getElementById("search").value.toLowerCase();
-    let items = document.querySelectorAll(".product");
-
-    items.forEach(function(item){
-
-        let text = item.innerText.toLowerCase();
-
-        if(text.includes(input)){
-            item.style.display = "block";
-        } else {
-            item.style.display = "none";
-        }
-
-    });
-
+header{
+background:#0b1d45;
+padding:20px;
 }
 
-
-// Visitor Counter (basic)
-let visitors = localStorage.getItem("visitors");
-
-if(visitors == null){
-    visitors = 0;
+h1{
+color:gold;
 }
 
-visitors++;
+nav{
+margin-top:10px;
+}
 
-localStorage.setItem("visitors", visitors);
+nav a{
+color:gold;
+margin:10px;
+text-decoration:none;
+font-size:18px;
+}
 
-console.log("Total Visitors: " + visitors);
+section{
+padding:40px;
+}
+
+.product{
+background:#142b63;
+margin:10px;
+padding:15px;
+border-radius:8px;
+}
+
+.price{
+color:gold;
+}
+
+img{
+margin-top:20px;
+border-radius:10px;
+}
+
+.btn{
+background:gold;
+color:black;
+padding:10px 20px;
+text-decoration:none;
+border-radius:6px;
+}
+
+footer{
+background:#081635;
+padding:20px;
+margin-top:40px;
+}
+.footer{
+  background:#0a1f44;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+}
+
+.builder{
+  color:gold;
+  font-weight:bold;
+  font-size:16px;
+}
