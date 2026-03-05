@@ -2,7 +2,10 @@
 <html>
 
 <head>
-<title>Sahara Al Jazeera Mobile LLC</title>
+
+<title>Sahara Al Jazeera Mobile Phones LLC</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" href="style.css">
 
@@ -12,101 +15,149 @@
 
 <header>
 
-<h1>Sahara Al Jazeera Mobile LLC – Ajman</h1>
+<h1>SAHARA AL JAZEERA MOBILES LLC</h1>
+
+<p>All kind of mobile phone sales buying and repairing</p>
 
 <nav>
-
 <a href="#home">Home</a>
 <a href="#accessories">Accessories</a>
 <a href="#about">About</a>
+<a href="#location">Location</a>
 <a href="#contact">Contact</a>
-
 </nav>
 
 </header>
 
-
 <section id="home">
 
-<h2>All Kinds of Mobiles & Accessories</h2>
+<h2>Mobile Phones</h2>
 
-<img src="random-images/billboard.jpg" width="400">
+<div class="gallery">
 
-<p>
-Samsung Galaxy • Redmi • Tablets • Smart Watches • Headphones • Mobile Covers
-</p>
+<img src="images-home/phone1.jpg">
+<img src="images-home/phone2.jpg">
+<img src="images-home/phone3.jpg">
 
-<p>Best Mobile Shop in Ajman</p>
+</div>
 
 </section>
-
 
 <section id="accessories">
 
-<h2>Our Accessories</h2>
+<h2>Mobile Accessories</h2>
 
-<div class="product">Mobile Phones</div>
-<div class="product">Headphones</div>
-<div class="product">Wireless Routers</div>
-<div class="product">Mobile Covers</div>
-<div class="product">Smart Watches</div>
+<div class="gallery">
 
-<p class="price">Price: Available in store</p>
+<img src="images-accessories/a1.jpg">
+<img src="images-accessories/a2.jpg">
+<img src="images-accessories/a3.jpg">
+
+</div>
 
 </section>
-
 
 <section id="about">
 
 <h2>About Our Shop</h2>
 
-<p><b>Owner:</b> Asim Shehzad</p>
+<p>
 
-<p>Sahara Al Jazeera Mobile LLC</p>
+We provide mobile phone sales, buying, repairing and accessories.
 
-<p>Ajman, United Arab Emirates</p>
+Services include:
 
-<p>Repairing & Selling Mobile Phones & Accessories</p>
+</p>
 
-<img src="random-images/repairing.jpg" width="300">
+<ul>
+
+<li>Mobile Phone Sales</li>
+<li>Mobile Phone Buying</li>
+<li>Mobile Phone Repairing</li>
+<li>Cracked Screen Fix</li>
+<li>Water Damage Repair</li>
+<li>Charging Port Repair</li>
+<li>Unlock Phone</li>
+<li>Tablet Repairing</li>
+
+</ul>
 
 </section>
 
+<section id="location">
+
+<h2>Shop Location</h2>
+
+<p>
+P.O Box: 20393<br>
+Al Karama Street<br>
+Ajman, U.A.E
+</p>
+
+<img src="images-random/billboard.jpg" class="billboard">
+
+</section>
 
 <section id="contact">
 
-<h2>Contact Us</h2>
+<h2>Contact</h2>
 
-<p><b>Owner:</b> Asim Shehzad</p>
+<p>
 
-<p>📞 +971 55 177 3991</p>
+Owner: Asim Shehzad
 
-<p>📧 k_asim2002@yahoo.com</p>
+</p>
 
-<p>📍 Ajman, UAE</p>
+<p>
 
-<h3>Business Hours</h3>
+Phone / WhatsApp:<br>
 
-<p>Monday – Thursday: 10 AM – 12 AM</p>
-<p>Friday: 4 PM – 12 AM</p>
-<p>Saturday – Sunday: 10 AM – 12 AM</p>
+<a href="https://wa.me/971551773991">
++971 55 1773991
+</a>
 
-<a href="tel:+971551773991" class="btn">Call Now</a>
+</p>
+
+<p>
+
+Email:<br>
+
+k_asim2002@yahoo.com
+
+</p>
 
 </section>
 
+<section id="hours">
+
+<h2>Business Hours</h2>
+
+<p>
+
+Monday – Thursday<br>
+10 AM – 12 AM
+
+</p>
+
+<p>
+
+Friday<br>
+4 PM – 12 AM
+
+</p>
+
+</section>
 
 <footer>
 
-<p>© Sahara Al Jazeera Mobile LLC</p>
+<p>© Sahara Al Jazeera Mobiles LLC</p>
+
+<p>WEBSITE BUILT BY ZUNAIRA ASIM</p>
 
 </footer>
 
 <script src="script.js"></script>
 
 </body>
-<footer class="footer">
-  <p>© 2026 Sahara Al Jazeera Mobiles LLC</p>
-  <p class="builder">WEBSITE BUILT BY ZUNAIRA ASIM</p>
-</footer>
+
 </html>
