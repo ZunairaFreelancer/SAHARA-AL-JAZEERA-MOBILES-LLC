@@ -1,69 +1,109 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Sahara Al Jazeera Mobile LLC</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+<title>Sahara Al Jazeera Mobile LLC</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
 <header>
-  <h1>Sahara Al Jazeera Mobile LLC - Ajman</h1>
 
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Accessories</a>
-    <a href="#">Location</a>
-    <a href="#">Contact</a>
-  </nav>
+<h1>Sahara Al Jazeera Mobile LLC – Ajman</h1>
 
-  <div class="auth">
-    <button>Sign In</button>
-    <button>Sign Up</button>
-  </div>
+<nav>
+
+<a href="#home">Home</a>
+<a href="#accessories">Accessories</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
 </header>
 
-<section class="banner">
-  <img src="images/banner.jpg" alt="Shop Banner">
+
+<section id="home">
+
+<h2>All Kinds of Mobiles & Accessories</h2>
+
+<img src="random-images/billboard.jpg" width="400">
+
+<p>
+Samsung Galaxy • Redmi • Tablets • Smart Watches • Headphones • Mobile Covers
+</p>
+
+<p>Best Mobile Shop in Ajman</p>
+
 </section>
 
-<section class="home">
-  <h2>All Kind of Mobiles & Accessories</h2>
-  <p>Samsung | iPhone | Redmi | Tecno | Routers | Covers | Smart Watches</p>
 
-  <div class="products">
-    <div class="card">
-      <img src="images/mobile1.jpg">
-      <h3>Samsung Galaxy</h3>
-      <button>Book Now</button>
-    </div>
+<section id="accessories">
 
-    <div class="card">
-      <img src="images/headphone.jpg">
-      <h3>Wireless Headphone</h3>
-      <button>Book Now</button>
-    </div>
+<h2>Our Accessories</h2>
 
-  </div>
+<div class="product">Mobile Phones</div>
+<div class="product">Headphones</div>
+<div class="product">Wireless Routers</div>
+<div class="product">Mobile Covers</div>
+<div class="product">Smart Watches</div>
+
+<p class="price">Price: Available in store</p>
+
 </section>
 
-<section class="contact">
-  <h2>Contact Us</h2>
-  <p>Owner: Asim Shehzad</p>
-  <p>Email: k_asim2002@yahoo.com</p>
 
-  <form action="https://formsubmit.co/k_asim2002@yahoo.com" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Write your message"></textarea>
-    <button type="submit">Send Request</button>
-  </form>
+<section id="about">
+
+<h2>About Our Shop</h2>
+
+<p><b>Owner:</b> Asim Shehzad</p>
+
+<p>Sahara Al Jazeera Mobile LLC</p>
+
+<p>Ajman, United Arab Emirates</p>
+
+<p>Repairing & Selling Mobile Phones & Accessories</p>
+
+<img src="random-images/repairing.jpg" width="300">
+
 </section>
+
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p><b>Owner:</b> Asim Shehzad</p>
+
+<p>📞 +971 55 177 3991</p>
+
+<p>📧 k_asim2002@yahoo.com</p>
+
+<p>📍 Ajman, UAE</p>
+
+<h3>Business Hours</h3>
+
+<p>Monday – Thursday: 10 AM – 12 AM</p>
+<p>Friday: 4 PM – 12 AM</p>
+<p>Saturday – Sunday: 10 AM – 12 AM</p>
+
+<a href="tel:+971551773991" class="btn">Call Now</a>
+
+</section>
+
 
 <footer>
-  <p>© 2026 Sahara Al Jazeera Mobile LLC - Ajman</p>
+
+<p>© Sahara Al Jazeera Mobile LLC</p>
+
 </footer>
 
+<script src="script.js"></script>
+
 </body>
+
 </html>
