@@ -105,5 +105,8 @@ Samsung Galaxy • Redmi • Tablets • Smart Watches • Headphones • Mobile
 <script src="script.js"></script>
 
 </body>
-
+<footer class="footer">
+  <p>© 2026 Sahara Al Jazeera Mobiles LLC</p>
+  <p class="builder">WEBSITE BUILT BY ZUNAIRA ASIM</p>
+</footer>
 </html>
