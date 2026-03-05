@@ -61,3 +61,4 @@ padding:20px;
 text-align:center;
 
 }
+console.log("Sahara Al Jazeera Mobiles Website Loaded");
